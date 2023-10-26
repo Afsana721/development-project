@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <fieldset>
+    <form action="/pets" method="post">
+        
+
+            <div>
+                <label for="name">Name</label>
+            <input type="text" id="name" name="pet_name">
+           
+            </div>
+
+            <label for="type">Type</label>
+            <select name="pet_type" id="type">
+                <option value="cat">Cat</option>
+                <option value="dog">Dog</option>
+                <option value="hamster">Hamster</option>
+                <option value="other">Other</option>
+                <option value="zebra">Zebra</option>
+            </select><br><br>
+
+            <label>Biography</label>
+            <textarea id="bio" name="pet_bio" rows="4" cols="35"></textarea><br>
+            <label>Owner's Email</label><br>
+            <input type="email" id="Owner-email" name="pet_owner_email"><br><br>
+
+            <div>
+
+                <div>
+                    <button type="submit" id="new-pet-submit-button">Create new pet</button>
+                </div>
+
+                <div>
+                    <button type="reset">Reset</button>
+                </div>
+
+            </div>
+        
+    </form>
+
+
+    <!--Picture card -->
+    <div class="card">
+        <img src="Assets/desert.jpg" alt="desert">
+
+        <div class="circle">
+            <img src="Assets/person-avatar.jpg" alt="person" ">
+            <h1>Title goes here</h1>
+            <h4 >Secondary text</h4>
+            <p>Greyhound divisively hello coldly wonderfully marginally far upon excluding.</p>
+        </div>
+        
+     
+
+    </div>    
+
+</fieldset>
+  
+
+<!--The questions you missed were:
+has a 'form' element that is 600px when the window is wider than 600px
+has exactly one 'select' element with a name of 'pet&#95;type' and an associated label with the content 'Type'-->
+    
+
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+form{
+    width: 600px
+}
+
+
+
+
+
+
+@media screen and (max-width: 599px){
+    form{
+        width: auto;
+    }
+}
+
+.card {
+    width:344px;
+    
+   /* padding: 16px;*/
+    border: 10px solid #d2e9f3;
+
+    background-size: cover;
+    transition: box-shadow 0.3s;
+    
+}
+
+
+
+.card:hover {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .3);
+}
+
+.card >img {
+    width: 344px;
+    height: 194px;
+    
+}
+
+.circle > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    padding: 10px;
+    margin-left: 10px;
+    float: left;
+       
+}
+
+ h1 {
+          
+    padding-left: 80px;
+    color: #000;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4{
+    padding-left: 80px;
+    margin-top: auto;
+    color: #232f34;
+    margin-top: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 11px;
+    padding-top: 16px;
+    color: #232f34;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+

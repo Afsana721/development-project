@@ -1,0 +1,24 @@
+
+article{
+  text-align: center;
+  background-color: black;
+  width: 450px;
+  height: 150px;
+  position: relative;
+  top: 0px;
+  float: left;
+  color: white;
+  padding-top: 6%;
+  
+}
+
+
+.trial{
+  background-color: white;
+  float: left;
+  
+}
+
+.red{
+  border-color: red;
+}

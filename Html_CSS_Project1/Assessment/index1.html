@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <form action="/pets" method="post" >
+        <fieldset>
+    
+        <div>
+        <label for="name">Name</label>
+            <input type="text" id="name" name="pet_name">
+        </div>
+    
+        <label>Type</label>
+        <select name="pet_type" id="type">
+        <option value="cat">Cat</option>
+        <option value="dog">Dog</option>
+        <option value="hamster">Hamster</option>
+        <option value="other">Other</option>
+        <option value="zebra">Zebra</option>
+        </select><br><br>
+    
+        <label>Biography</label>
+      <textarea id="bio" name="pet_bio" rows="4" cols="50"></textarea><br>
+      <label>Owner's Email</label><br>
+      <input type="email" id="Owner-email" name="pet-owner-email"><br><br>
+    </div>
+    
+</body>
+</html>

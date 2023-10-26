@@ -1,0 +1,119 @@
+
+/* Default style for labels and form elements */
+  label,
+  input {
+  width: 100%;
+  }
+
+/* Media query for screens greater than or equal to 600px */
+  @media screen and (min-width: 600px) {
+    label,
+    input {
+    width: auto; /* Let the content determine the width */
+    }
+  /* Additional styles for form elements in grid layout */
+  }
+
+/* Media query for screens less than 600px */
+  @media screen and (max-width: 599px) {
+    label,
+    input {
+    width: 100%; /* Full width */
+    }
+  }
+
+  form {
+    width: 445px;
+  }
+
+
+ .title {
+   font-size: 22px;
+   color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+   
+ }
+ 
+ .subTitile {
+  
+  color: #232f34;
+  padding-left: 60px ;
+  margin-top: -10px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  
+ .text {
+  font-size: 11px;
+  color: #232f34; 
+  padding-top: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .img2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  float: left;
+  padding: 10px;
+  
+ }
+
+ img {
+  width: 344px;
+  height: 194px;
+  float:none
+ 
+  
+ }
+
+ .card {
+  width: 344px;
+  border: 10px solid gray;
+  padding: 40px;
+  border-color: gray;
+  transition:box-shadow 0.3s ease;
+  position: relative;
+  display: inline-block;
+ }
+
+  #mouse:hover {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  }
+
+
+
+ /*.picture {
+  width: 344px;
+  border: 10px solid gray;
+  padding: 40px;
+  border-color: gray;
+  
+  
+ }*/
+/*for {
+    display: grid;
+    max-width: 600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    grid-template-columns: 30%;
+}
+
+@media screen and (min-width:600px) {
+    form{
+        display: grid;
+        max-width: 600px;
+        width: 100%;
+        grid-template-columns: 600px;
+        row-gap: 10px;
+    }
+}
+
+input, select, textarea {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+for div +div {
+    margin-top: 1em;
+}*/

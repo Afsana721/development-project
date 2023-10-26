@@ -1,0 +1,29 @@
+.menu-bar {
+    background-color: rgba(13, 3, 32, 0.831);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .menu-item {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .selected {
+    font-weight: bold;
+  }
+  
+  .select-bar {
+    display: inline-block;
+    margin-left: 5px;
+  }
+
+  select{
+    background-color:rgba(13, 3, 32, 0.831);
+  }
+  
+  .icon {
+    margin-left: 5px;
+}
